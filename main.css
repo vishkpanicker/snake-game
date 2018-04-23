@@ -1,0 +1,41 @@
+body    {
+    margin  : 0;
+    padding : 0;
+}
+
+#game-screen    {
+    display: block;
+}
+
+#gameOver, #playHud, #music  {
+    position: absolute;
+    visibility: hidden;
+}
+
+h1, h2, h3  {
+    font-family: 'Gugi', cursive;
+    color: black;
+    text-align: center;
+}
+
+.title  {
+    font-size: 70px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#restartButton  {
+    background-color: rgb(8, 231, 75);
+    border: 5px solid rgb(8, 231, 75);
+    border-radius: 10px;
+}
+
+#restartButton:hover{
+    background-color: rgba(243, 6, 6, 0.699);
+    border: 5px solid rgba(243, 6, 6, 0.699);
+    
+}
+
+#scoreBoard {
+    margin: 0px;
+}
